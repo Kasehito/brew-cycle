@@ -3,8 +3,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite"
+        "build": "vite build && node generate-static.js",
+        "dev": "vite",
+        "generate-static": "node generate-static.js"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
