@@ -1,7 +1,6 @@
 {
   "name": "brewcycle",
   "version": 2,
-  "framework": "laravel",
   "buildCommand": "npm run build && php artisan optimize",
   "devCommand": "npm run dev",
   "outputDirectory": "public",
