@@ -13,3 +13,11 @@ vendor
 *.swp
 *.swo
 .phpunit.result.cache
+app/
+bootstrap/
+config/
+database/
+routes/
+tests/
+artisan
+*.php
