@@ -3,7 +3,6 @@
   "buildCommand": "bash build.sh",
   "devCommand": "npm run dev",
   "outputDirectory": "public",
-  "installCommand": "composer install --no-dev --prefer-dist",
   "routes": [
     {
       "src": "/(.*)",
