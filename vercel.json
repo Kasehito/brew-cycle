@@ -6,7 +6,7 @@
   "installCommand": "composer install --no-dev && npm install",
   "functions": {
     "api/index.php": {
-      "runtime": "php-8.3"
+      "runtime": "now-php@1.5.0"
     }
   },
   "routes": [
